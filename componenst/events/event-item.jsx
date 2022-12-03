@@ -1,4 +1,3 @@
-import Link from "next/link"
 import classes from "./event-item.module.css"
 import Button from "../ui/button.jsx"
 import AddressIcon from "../icons/address-icon"

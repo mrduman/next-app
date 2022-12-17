@@ -1,5 +1,5 @@
 import EventItem from "./event-item";
-import classes from "./event-list.module.css"
+import classes from "./event-list.module.css";
 
 export default function EventList(props) {
     const { items } = props;
@@ -15,7 +15,7 @@ export default function EventList(props) {
                     date={event.date}
                     image={event.image}
                 />
-            )}
+            )};
         </ul>
     )
 };
